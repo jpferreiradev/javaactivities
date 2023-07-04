@@ -30,7 +30,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestaExemplo">
+  <component name="RunManager" selected="Application.ClasseTeste">
+    <configuration name="ClasseTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursividade.Exemplos.ClasseTeste" />
+      <module name="javaactivities" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursividade.Exemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClasseTestes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursividade.ClasseTestes" />
       <module name="javaactivities" />
@@ -66,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClasseTeste" />
         <item itemvalue="Application.TestaExemplo" />
         <item itemvalue="Application.ClasseTestes" />
         <item itemvalue="Application.Main" />
@@ -84,6 +98,7 @@
       <workItem from="1687979942492" duration="1796000" />
       <workItem from="1688042444855" duration="6492000" />
       <workItem from="1688067135234" duration="7499000" />
+      <workItem from="1688388244087" duration="2887000" />
     </task>
     <servers />
   </component>
