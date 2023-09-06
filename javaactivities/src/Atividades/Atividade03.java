@@ -19,5 +19,12 @@ public class Atividade03 {
         System.out.println("O valor da conversão de Celsus para Fahrenheit  é: " + conversaoCelsusParaFahrenheit);
         System.out.println("O valor da conversão de Fahrenheit para Celsus é: " + conversaoFahrenheitParaCelsus);
 
+        if(conversaoCelsusParaFahrenheit < 0 || conversaoFahrenheitParaCelsus < 0) {
+            System.out.println("Temperatura negativa...");
+
+        } else {
+            System.out.println("Temperatura positiva...");
+        }
+
     }
 }
