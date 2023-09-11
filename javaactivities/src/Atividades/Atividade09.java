@@ -16,19 +16,18 @@ public class Atividade09 {
         salarioUsuario = scan.nextDouble();
         System.out.println("O seu salário bruto é de:" + salarioUsuario);
 
-
-        if (salarioUsuario < 1.320) {
+        if (salarioUsuario < 1320) {
             conversaoSalarioPorcetagem = (7.5 / 100) * salarioUsuario;
-            System.out.println("O desconto no seu salário foi de 7.5%, o  novo valor dele é de:"  + conversaoSalarioPorcetagem );
-        } else if (salarioUsuario > 1.320 || salarioUsuario < 2.571) {
-            conversaoSalarioPorcetagem = (9 / 100) * salarioUsuario;
-            System.out.println("O desconto do seu salário foi de 9%, o novo valor dele é de: " + conversaoSalarioPorcetagem);
-        } else if (salarioUsuario > 2.571 || salarioUsuario < 3.856) {
-            conversaoSalarioPorcetagem = (12 / 100) * salarioUsuario;
-            System.out.println("O desconto do seu salário foi de 12%, o novo valor dele é de" + conversaoSalarioPorcetagem);
-        } else if (salarioUsuario >= 3.856) {
-            conversaoSalarioPorcetagem = (14 / 100) * salarioUsuario;
-            System.out.println("O desconto do seu salário foi de 14%, o novo valor dele é:" + conversaoSalarioPorcetagem);
+            System.out.println("O desconto do seu salário foi de 7.5%, seu novo valor é de:" + conversaoSalarioPorcetagem);
+        } else if (salarioUsuario > 1320 && salarioUsuario < 2571) {
+            conversaoSalarioPorcetagem = ((double) 9/ 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 9%, seu novo valor é de:" + conversaoSalarioPorcetagem);
+        } else if (salarioUsuario > 2571 && salarioUsuario < 3856){
+            conversaoSalarioPorcetagem = ((double) 12 / 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 12%, seu novo valor é de" + conversaoSalarioPorcetagem);
+        } else if (salarioUsuario > 3856 && salarioUsuario < 7507) {
+            conversaoSalarioPorcetagem = ((double) 14 / 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 14%, seu novo valor é de" + conversaoSalarioPorcetagem);
         }
 
 
@@ -37,6 +36,29 @@ public class Atividade09 {
 
 }
 
+/*
+
+         conversaoSalarioPorcetagem = (7.5 / 100) * salarioUsuario;
+            System.out.println("O desconto no seu salário foi de 7.5%, o  novo valor dele é de:" + conversaoSalarioPorcetagem);
+        else if (salarioUsuario > 1.320 || salarioUsuario < 2.571) {
+            conversaoSalarioPorcetagem = (9 / 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 9%, o novo valor dele é de: " + conversaoSalarioPorcetagem);
+        }
+
+        } else if (salarioUsuario > 2.571 || salarioUsuario <= 3.856) {
+            conversaoSalarioPorcetagem = (12 / 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 12%, o novo valor dele é de" + conversaoSalarioPorcetagem);
+        } else if (salarioUsuario > 3.856) {
+            conversaoSalarioPorcetagem = (14 / 100) * salarioUsuario;
+            System.out.println("O desconto do seu salário foi de 14%, o novo valor dele é:" + conversaoSalarioPorcetagem);
+ */
+
+/*
+
+       switch(){
+
+        }
+ */
 
 /*
 até R$ 1.320,00	7,5%
