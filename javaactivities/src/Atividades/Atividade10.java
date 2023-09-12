@@ -15,10 +15,8 @@ public class Atividade10 {
 
         System.out.println("Digite um letra: ");
         letra = scan.nextLine();
-        //System.out.println("Digite um número: ");
-        //numero = scan.nextInt();
 
-        //System.out.println("Letra foi: " +"["+ letra +"]" + " e o número foi:" + numero);
+
         System.out.println("Letra foi: " +"["+ letra +"]");
 
 

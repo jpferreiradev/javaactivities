@@ -13,8 +13,10 @@ public class Atividade14 {
         //ArrayList<Integer> lista = new ArrayList<>();
         int entrada = 0;
 
+        System.out.println("Digite dez números");
+
         for (int i = 0; i < 10; i++) {
-                System.out.println("Digite");
+
             }
 
     }
