@@ -9,6 +9,7 @@ public class ExempleArrayList {
         ArrayList<String> carros = new ArrayList<>(100);
         //ArrayList<String> carros = new ArrayList<>(100); // Exemplo como você coloca o numero de posições do arrayList
 
+
         // Adicionar dados/ elementos - metodo add -> 3 elementos
         carros.add("HRV");
         carros.add("Polo");
@@ -28,11 +29,11 @@ public class ExempleArrayList {
         System.out.println(carros.remove(1));
         // A true na impressão é porque ele foi removido;
 
-        //carros.clear(); //Metodo para zerar todo o array List
+        carros.clear(); //Metodo para zerar todo o array List
 
 
         // Escolher a posição que você quer que o elemento fique
-        //carros.add(1,"Argo");
+        carros.add(1,"Argo");
 
 
 
