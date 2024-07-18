@@ -12,14 +12,15 @@ public class Atividade34 {
         int menor;
 
 
-        System.out.print("Informe um numero negativo para sair:  ");
+        System.out.print("Informe um numero negativo para sair: ");
         numeroAtual = scan.nextInt();
 
         if(numeroAtual >= 0){
             maior = numeroAtual;
             menor = numeroAtual;
+
             while(numeroAtual >= 0){
-                System.out.println("Digite outro número");
+                System.out.print("Digite outro número: ");
                 numeroAtual = scan.nextInt();
                 if(numeroAtual > maior){
                     maior = numeroAtual;
