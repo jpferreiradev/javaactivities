@@ -25,10 +25,10 @@ public class Atividade40 {
             if (indice > 0 && indice <= 0.25) {
                 System.out.println("Poluição aceitavel");
             }
-             if (indice >= 0.3) {
+             if (indice == 0.3) {
                 System.out.println(" 1º grupo de empresas suspender suas atividades");
             }
-             if (indice >= 0.4) {
+             if (indice == 0.4) {
                 System.out.println("1º e 2º grupo de empresas, suspenderem suas atividades");
             }
              if (indice >= 0.5) {
