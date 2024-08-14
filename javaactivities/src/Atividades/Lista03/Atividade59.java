@@ -13,6 +13,7 @@ public class Atividade59 {
         nome = scan.nextLine();
 
         System.out.println("O numero de caraceteres é: " + nome.length());
+        // Correção foi feita em outra classe;
 
     }
 }

@@ -14,11 +14,12 @@ public class Atividade50 {
         int contadorVezes;
         boolean stop = false;
         int numeroSorteado;
+        int tentativas = 0;
+
 
         System.out.print("Informe um número para ser sorteado entre 0 a 100: ");
         numero = scan.nextInt();
         System.out.println("Numero escolhido foi: " + numero);
-        System.out.println();
 
         System.out.println(gerador.nextInt(100));
 
