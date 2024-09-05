@@ -21,6 +21,16 @@ public class Teste {
         System.out.print("Informe quantos livros seram: ");
         int quantidade = scan.nextInt();
 
+        livro.setTitulo("Java");
+        livro.setNomeAutor("James Goslang");
+        livro.setEditora("Abril");
+        livro.setAnoPublicacao(2010);
+        livro.setNumeroDePaginas(400);
+        livro.setCategoria("Programação");
+        livro.setIdioma("PT-BR");
+
+        System.out.println(livro.toString());
+
 
 
 

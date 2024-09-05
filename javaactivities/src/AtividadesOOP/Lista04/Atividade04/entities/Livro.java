@@ -11,12 +11,11 @@ public class Livro {
     private String idioma;
 
 
-
-    public Livro(){
+    public Livro() {
 
     }
 
-    public Livro(String titulo, String nomeAutor, String editora,Integer anoPublicacao, Integer numeroDePaginas, String categoria,String idioma) {
+    public Livro(String titulo, String nomeAutor, String editora, Integer anoPublicacao, Integer numeroDePaginas, String categoria, String idioma) {
         this.titulo = titulo;
         this.nomeAutor = nomeAutor;
         this.editora = editora;
@@ -50,6 +49,14 @@ public class Livro {
         this.editora = editora;
     }
 
+    public Integer getAnoPublicacao() {
+        return anoPublicacao;
+    }
+
+    public void setAnoPublicacao(Integer anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+    }
+
     public Integer getNumeroDePaginas() {
         return numeroDePaginas;
     }
@@ -66,16 +73,18 @@ public class Livro {
         this.categoria = categoria;
     }
 
+    public String getIdioma() {
+        return idioma;
+    }
+
+    public void setIdioma(String idioma) {
+        this.idioma = idioma;
+    }
+
     @Override
     public String toString() {
-        return "Livro:" +
-                "         titulo='" + titulo + '\'' +
-                ", nomeAutor='" + nomeAutor + '\'' +
-                ", editora='" + editora + '\'' +
-                ", anoPublicacao=" + anoPublicacao +
-                ", numeroDePaginas=" + numeroDePaginas +
-                ", categoria='" + categoria + '\'' +
-                idioma='" + idioma + '\'' ;
-        ;
+        return "\nLivro:" + "Título: " + titulo + "Nome do autor:" + nomeAutor + "Editora: " + editora + "Ano publicação:" + anoPublicacao + "Nº Páginas" + numeroDePaginas + "Categoria: " + categoria + "Idioma:" + idioma;
+
+
     }
 }
