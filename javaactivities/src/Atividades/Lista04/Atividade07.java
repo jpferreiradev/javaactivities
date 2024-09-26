@@ -7,21 +7,15 @@ public class Atividade07 {
 
         Scanner scan = new Scanner(System.in);
 
-        boolean a = true;
-        boolean b = false;
-        String valorA;
-        String valorB;
+        boolean valorA, valorB;
+        valorA = true;
+        valorB = true;
 
-
-        System.out.println("Informe a primeira letra, a(verdeiro) ou b (Falso)");
-        valorA = scan.next();
-        System.out.println("Informe a primeira letra, a(verdeiro) ou b (Falso)");
-        valorB = scan.next();
-
-        if(a == b){
-            System.out.println("Os dois valores são verdadeiros...");
-        } else{
-            System.out.println("Os dois valores são falsos...");
+        if (valorA == valorB) {
+            System.out.println("Ambos são falsos");
+        } else if (valorA != valorB) {
+            System.out.println("Aqui o resultado vai dar verdadeiro");
         }
+
     }
 }

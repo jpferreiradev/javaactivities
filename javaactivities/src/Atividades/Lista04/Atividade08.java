@@ -7,17 +7,33 @@ public class Atividade08 {
 
         Scanner scan = new Scanner(System.in);
 
-        //System.out.println("Informe o tamanho do array");
-        //int quantidade = scan.nextInt();
+        int tamanho;
+        System.out.print("Informe o tamanho do array: ");
+        tamanho = scan.nextInt();
 
-        int[] valores = new int[4];
+        int valores[] = new int[tamanho];
 
-        for (int i = 0; i < valores.length;i++) {
-            System.out.println(i);
+        for (int i = 0; i < valores.length; i++) {
+            System.out.println("Informe o " + (i + 1) + " valor:");
+            valores[i] = scan.nextInt();
         }
 
 
+        System.out.println("Ordem crescente: ");
+        for(int i = 0; i < valores.length;i++){
+            System.out.println(i+1);
+        }
 
-
+        System.out.println();
+        System.out.println("Valores em ordem decresente: ");
+        for(int i = valores.length; i > 0;i--){
+            System.out.println(i);
+        }
     }
 }
+
+/*
+   for (int v : valores) {
+            System.out.printf(" " + v);
+        }
+ */

@@ -8,25 +8,20 @@ public class Atividade05 {
 
         Scanner scan = new Scanner(System.in);
 
-        double salario,valorSalarioMinimo;
+        double salarioMinino, salarioUsuario,quantidadeSalario;
 
-        valorSalarioMinimo = 1.000;
+
+        salarioMinino = 1000;
 
         System.out.print("Informe o seu salário: ");
-        salario = scan.nextDouble();
+        salarioUsuario = scan.nextDouble();
 
+        System.out.println("O valor do salário minimo é de R$" + salarioMinino + " reais");
+        System.out.println("O valor do seu salário é de R$ " + salarioUsuario + " reais");
 
-        int cont = 0;
-        for(int i = 0; i < valorSalarioMinimo;i++){
-            cont = i;
-            cont++;
-        }
-        System.out.println(cont);
+        quantidadeSalario  = salarioUsuario / salarioMinino;
 
-
-
-
-
+        System.out.println("Quantidade de salários mininos é de " + quantidadeSalario + " salário/salários.");
 
 
     }
